@@ -1,0 +1,15 @@
+{
+  "name": "@szum-tech/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier shareable configuration.",
+  "main": "index.js",
+  "repository": "https://github.com/JanSzewczyk/prettier-config.git",
+  "author": "Szum-Tech <szum.tech@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
