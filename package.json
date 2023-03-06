@@ -2,10 +2,38 @@
   "name": "@szum-tech/prettier-config",
   "version": "1.0.0",
   "description": "Prettier shareable configuration.",
-  "main": "index.js",
-  "repository": "https://github.com/JanSzewczyk/prettier-config.git",
-  "author": "Szum-Tech <szum.tech@gmail.com>",
+  "keywords": [
+    "szum-tech",
+    "Szum-Tech",
+    "prettier",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/JanSzewczyk/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/JanSzewczyk/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanSzewczyk/prettier-config.git"
+  },
   "license": "MIT",
+  "author": "Szum-Tech <szum.tech@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
+  },
+  "prettier": "./index.js",
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.4.3"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.7.2",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.4"
+  },
   "engines": {
     "node": ">=18"
   },
