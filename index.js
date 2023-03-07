@@ -7,5 +7,6 @@ module.exports = {
   trailingComma: "none",
   bracketSpacing: true,
   bracketSameLine: false,
-  printWidth: 100
+  printWidth: 100,
+  plugins: ["prettier-plugin-packagejson"]
 };
