@@ -64,7 +64,7 @@ yarn add -D prettier @szum-tech/prettier-config
 
 ## Set configuration
 
-Full documentation on how to create a Prettier configuration can be found [here](https://prettier.io/docs/en/configuration.html). 
+Full documentation on how to create a Prettier configuration can be found [here](https://prettier.io/docs/en/configuration.html).
 
 Below are the recommended ways to add it:
 
