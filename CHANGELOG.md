@@ -1,21 +1,21 @@
 <!-- markdownlint-disable --><!-- textlint-disable -->
+
 # 📓 Changelog
+
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [1.1.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.1.0...v1.1.1) (2023-03-07)
 
-
 ### Bug Fixes
 
-* **package:** optimise package files ([3d1037b](https://github.com/JanSzewczyk/prettier-config/commit/3d1037b8057d4b53ef7d97f89eaec4547067f4a4))
+- **package:** optimise package files ([3d1037b](https://github.com/JanSzewczyk/prettier-config/commit/3d1037b8057d4b53ef7d97f89eaec4547067f4a4))
 
 # [1.1.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.0.0...v1.1.0) (2023-03-07)
 
-
 ### Features
 
-* add `prettier-plugin-packagejson` plugin to configuration ([487996e](https://github.com/JanSzewczyk/prettier-config/commit/487996e89def7d718154e95b476f9c6717384e8e))
+- add `prettier-plugin-packagejson` plugin to configuration ([487996e](https://github.com/JanSzewczyk/prettier-config/commit/487996e89def7d718154e95b476f9c6717384e8e))
 
 <!-- markdownlint-disable --><!-- textlint-disable -->
 
