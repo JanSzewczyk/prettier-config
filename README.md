@@ -32,10 +32,12 @@
 
 - [Opinionated code formatter with support for: JavaScript, Typescript, JSX, ...](https://prettier.io/)
 - [Sort the keys of a `package.json` file](https://github.com/matzkoh/prettier-plugin-packagejson#readme)
+- [Sort import declarations by provided Regular Expression order](https://github.com/trivago/prettier-plugin-sort-imports#readme)
 
 # Technologies
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/prettier-plugin-packagejson)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/@trivago/prettier-plugin-sort-imports)
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/dev/prettier)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/dev/semantic-release)
