@@ -1,4 +1,16 @@
 <!-- markdownlint-disable --><!-- textlint-disable -->
+# 📓 Changelog
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.2.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.1.1...v1.2.0) (2023-04-01)
+
+
+### Features
+
+* **config:** add `@trivago/prettier-plugin-sort-imports` library to shared config ([4d08c3d](https://github.com/JanSzewczyk/prettier-config/commit/4d08c3de846a4b0189a59e7ef5f2e50fdd3d6f54))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
 
 # 📓 Changelog
 
