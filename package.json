@@ -35,11 +35,11 @@
     "@szum-tech/semantic-release-preset": "^1.4.0",
     "@types/prettier": "^2.7.2",
     "@types/semantic-release": "^20.0.1",
-    "prettier": "^2.8.4",
-    "semantic-release": "^20.1.1"
+    "prettier": "^2.8.7",
+    "semantic-release": "^21.0.1"
   },
   "peerDependencies": {
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.7"
   },
   "engines": {
     "node": ">=18"
