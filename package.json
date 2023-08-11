@@ -39,7 +39,7 @@
     "semantic-release": "^21.0.7"
   },
   "peerDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   },
   "engines": {
     "node": ">=18"
