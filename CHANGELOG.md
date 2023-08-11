@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.2.1...v1.3.0) (2023-08-11)
+
+
+### Features
+
+* **deps:** update `prettier` to v3 ([11e5f4b](https://github.com/JanSzewczyk/prettier-config/commit/11e5f4bcd0ad3578e223bad2cd580bfaeeca3a53))
+* **deps:** update `prettier` to v3 ([fc53d2f](https://github.com/JanSzewczyk/prettier-config/commit/fc53d2ff4f6d2ce9f719b92dd4f3919d4fecd81e))
+
 ## [1.2.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.2.0...v1.2.1) (2023-05-13)
 
 
