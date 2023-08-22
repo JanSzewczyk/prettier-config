@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.0...v1.3.1) (2023-08-22)
+
+
+### Bug Fixes
+
+* **config:** remove `"@trivago/prettier-plugin-sort-imports` from configuration and bump deps ([41b9d82](https://github.com/JanSzewczyk/prettier-config/commit/41b9d82ec76bf734999adc12cea39ae3758de9a6))
+
 # [1.3.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.2.1...v1.3.0) (2023-08-11)
 
 
