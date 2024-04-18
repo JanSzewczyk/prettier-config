@@ -5,9 +5,17 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      connect-dependencies:
+        patterns:
+          - "*"
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      connect-dependencies:
+        patterns:
+          - "*"

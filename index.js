@@ -9,5 +9,5 @@ module.exports = {
   bracketSameLine: false,
   printWidth: 120,
 
-  plugins: ["prettier-plugin-packagejson"]
+  plugins: ["prettier-plugin-packagejson", "prettier-plugin-tailwindcss"]
 };

@@ -36,6 +36,7 @@
 # Technologies
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/prettier-plugin-packagejson)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/prettier-plugin-tailwindcss)
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/dev/prettier)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/JanSzewczyk/prettier-config/dev/semantic-release)
