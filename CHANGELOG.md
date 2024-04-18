@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.2](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.1...v1.3.2) (2024-04-18)
+
+
+### Bug Fixes
+
+* **deps:** bump deps and npm support ([fb734f8](https://github.com/JanSzewczyk/prettier-config/commit/fb734f825ce19d4382183f705d3744933211f443))
+
 ## [1.3.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.0...v1.3.1) (2023-08-22)
 
 
