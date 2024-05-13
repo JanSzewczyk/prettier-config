@@ -4,7 +4,10 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
+      day: "sunday"
+      time: "21:37"
+      timezone: "Europe/Warsaw"
     groups:
       github-dependencies:
         patterns:
@@ -14,7 +17,10 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
+      day: "sunday"
+      time: "21:37"
+      timezone: "Europe/Warsaw"
     groups:
       prettier-config-dependencies:
         patterns:
