@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.3...v1.3.4) (2024-05-27)
+
+
+### Bug Fixes
+
+* **config:** add additional tailwind config ([063c46c](https://github.com/JanSzewczyk/prettier-config/commit/063c46cbffbf39aab7b7c9cb946cd6fc28d36ef0))
+
 ## [1.3.3](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.2...v1.3.3) (2024-05-27)
 
 
