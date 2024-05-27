@@ -9,5 +9,7 @@ module.exports = {
   bracketSameLine: false,
   printWidth: 120,
 
+  tailwindFunctions: ["cva", "clsx"],
+
   plugins: ["prettier-plugin-packagejson", "prettier-plugin-tailwindcss"]
 };
