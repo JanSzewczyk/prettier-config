@@ -1,4 +1,4 @@
-/** @type {import('prettier').Options} */
+/** @type {import('prettier').Config & import('prettier-plugin-tailwindcss').PluginOptions} */
 module.exports = {
   semi: true,
   useTabs: false,
