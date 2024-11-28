@@ -27,7 +27,7 @@ const baseConfig = {
 };
 
 /** @type {Array<string>} */
-const plugins = ["prettier-plugin-packagejson", !hasTailwindcss ? "prettier-plugin-tailwindcss" : null].filter(Boolean);
+const plugins = ["prettier-plugin-packagejson", hasTailwindcss ? "prettier-plugin-tailwindcss" : null].filter(Boolean);
 
 /** @type {import('prettier-plugin-tailwindcss').PluginOptions} */
 const tailwindcssConfig = {
@@ -35,6 +35,6 @@ const tailwindcssConfig = {
   tailwindFunctions: ["classNames", "clsx", "cn"]
 };
 
-export const config = { ...baseConfig, plugins, ...(!hasTailwindcss ? tailwindcssConfig : {}) };
+export const config = { ...baseConfig, plugins, ...(hasTailwindcss ? tailwindcssConfig : {}) };
 
 export default config;
