@@ -49,7 +49,8 @@ I also used my packages:
 
 ## Installation
 
-[@szum-tech/prettier-config](https://www.npmjs.com/package/@szum-tech/prettier-config) is available as an [npm package](https://www.npmjs.com/package/@szum-tech/prettier-config).
+[@szum-tech/prettier-config](https://www.npmjs.com/package/@szum-tech/prettier-config) is available as an
+[npm package](https://www.npmjs.com/package/@szum-tech/prettier-config).
 
 **npm:**
 
@@ -65,7 +66,8 @@ yarn add -D prettier @szum-tech/prettier-config
 
 ## Set configuration
 
-Full documentation on how to create a Prettier configuration can be found [here](https://prettier.io/docs/en/configuration.html).
+Full documentation on how to create a Prettier configuration can be found
+[here](https://prettier.io/docs/en/configuration.html).
 
 Below are the recommended ways to add it:
 
@@ -102,8 +104,10 @@ Optional, can add scripts to `package.json` file :
 
 # Changelog
 
-The [changelog](https://github.com/JanSzewczyk/prettier-config/blob/main/CHANGELOG.md) is regularly updated to reflect what's changed in each new release.
+The [changelog](https://github.com/JanSzewczyk/prettier-config/blob/main/CHANGELOG.md) is regularly updated to reflect
+what's changed in each new release.
 
 # License
 
-This project is licensed under the terms of the [MIT license](https://github.com/JanSzewczyk/prettier-config/blob/main/LICENCE).
+This project is licensed under the terms of the
+[MIT license](https://github.com/JanSzewczyk/prettier-config/blob/main/LICENCE).
