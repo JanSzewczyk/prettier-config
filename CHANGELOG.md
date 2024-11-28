@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.5...v1.4.0) (2024-11-28)
+
+
+### Features
+
+* **config:** update prettier configuration ([8b4d8ef](https://github.com/JanSzewczyk/prettier-config/commit/8b4d8ef6d0212d78e76fa5a2f6855adccf021ff1))
+
 ## [1.3.5](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.4...v1.3.5) (2024-06-16)
 
 
