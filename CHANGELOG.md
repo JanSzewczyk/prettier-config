@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.0...v1.4.1) (2024-12-07)
+
+### Bug Fixes
+
+* **deps:** bump deps & fix `cross-spawn` version ([60acd70](https://github.com/JanSzewczyk/prettier-config/commit/60acd70cf356e2f27104a7197400687ba724d7a5))
+
 # [1.4.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.3.5...v1.4.0) (2024-11-28)
 
 
