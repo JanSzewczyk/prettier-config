@@ -1,5 +1,1 @@
-/** @type {import('semantic-release').Options} */
-export default {
-  branches: ["main"],
-  extends: "@szum-tech/semantic-release-preset"
-};
+export { default } from "@szum-tech/semantic-release-config/with-npm";
