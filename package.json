@@ -19,12 +19,13 @@
   "license": "MIT",
   "author": "Szum-Tech <szum.tech@gmail.com>",
   "type": "module",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "files": [
-    "src/index.js"
+    "dist/**"
   ],
   "scripts": {
+    "build": "tsup",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
   },
@@ -35,7 +36,9 @@
   "devDependencies": {
     "@szum-tech/semantic-release-config": "^2.2.1",
     "prettier": "^3.4.2",
-    "semantic-release": "^24.2.0"
+    "semantic-release": "^24.2.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
     "prettier": "^3.4.2"
