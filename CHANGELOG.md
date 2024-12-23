@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.1...v1.4.2) (2024-12-23)
+
+### Bug Fixes
+
+* **code:** move main file to src dir ([38d0f5a](https://github.com/JanSzewczyk/prettier-config/commit/38d0f5ac4d8ddcf214d82c4e07b7fa747d330a22))
+
+### Documentation
+
+* **README:** update `README` file documentation ([df71827](https://github.com/JanSzewczyk/prettier-config/commit/df71827d713f40a643360e4a020f9ba679e5808c))
+
+### Build System
+
+* **deps:** bump `@szum-tech/semantic-release-config` to v2.2.0 ([32b40c3](https://github.com/JanSzewczyk/prettier-config/commit/32b40c3d8892e972e5e7ab8782919c9f96be7f84))
+* **deps:** bump `@szum-tech/semantic-release-config` to v2.2.1 ([d179ac3](https://github.com/JanSzewczyk/prettier-config/commit/d179ac3e68929ef3a8dec8a962b873d3690efc5a))
+* **eslint:** setup eslint ([f18f05e](https://github.com/JanSzewczyk/prettier-config/commit/f18f05e362dae1d3941f326671318d7da94409d5))
+* **tsup:** set up `tsup` build configuration ([d94d093](https://github.com/JanSzewczyk/prettier-config/commit/d94d093705c71c1e17cf5619102bb6a3b2bf48a1))
+
+### Continuous Integration
+
+* **pr-check:** add `build` job to `PR Checks ✅` GH action ([5a34921](https://github.com/JanSzewczyk/prettier-config/commit/5a349210188f10ce22e54307e7ba0d8c6571ef70))
+* **pr-check:** add `Eslint ⬣` job to `PR Checks ✅` GH action ([8b9de0a](https://github.com/JanSzewczyk/prettier-config/commit/8b9de0add24f332ceff05d5440bd19c806e6cc46))
+* **publish:** update `Publish 🚀` gh action with `build` step ([8f6fca8](https://github.com/JanSzewczyk/prettier-config/commit/8f6fca8a9cdebb87554ca6d6d617f7c7dc3fd915))
+
 ## [1.4.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.0...v1.4.1) (2024-12-07)
 
 ### Bug Fixes
