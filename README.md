@@ -14,6 +14,8 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/JanSzewczyk/prettier-config/blob/main/LICENSE)
 
+---
+
 [Prettier](https://prettier.io/) shareable configuration.
 
 ## 📚 Features

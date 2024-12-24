@@ -19,6 +19,12 @@
   "license": "MIT",
   "author": "Szum-Tech <szum.tech@gmail.com>",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "files": [
@@ -47,7 +53,7 @@
     "typescript": "^5.7.2"
   },
   "peerDependencies": {
-    "prettier": "^3.4.2"
+    "prettier": ">=3.0.0"
   },
   "publishConfig": {
     "access": "public"
