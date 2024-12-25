@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.5](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.4...v1.4.5) (2024-12-25)
+
+### Bug Fixes
+
+* **build:** fix exporting package ([a913119](https://github.com/JanSzewczyk/prettier-config/commit/a913119ca1562c3bdb4335a794f05c30ea078b59))
+
 ## [1.4.4](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.3...v1.4.4) (2024-12-25)
 
 ### Bug Fixes
