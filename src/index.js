@@ -35,6 +35,5 @@ const tailwindcssConfig = {
   tailwindFunctions: ["classNames", "clsx", "cn"]
 };
 
-export const config = { ...baseConfig, plugins, ...(hasTailwindcss ? tailwindcssConfig : {}) };
-
-export default config;
+/** @type {import('prettier').Config || import('prettier-plugin-tailwindcss').PluginOptions} */
+export default { ...baseConfig, plugins, ...(hasTailwindcss ? tailwindcssConfig : {}) };

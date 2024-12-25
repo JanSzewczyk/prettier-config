@@ -19,13 +19,6 @@
   "license": "MIT",
   "author": "Szum-Tech <szum.tech@gmail.com>",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "default": "./dist/index.cjs"
-    }
-  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "files": [
