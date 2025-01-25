@@ -33,12 +33,12 @@
     "prettier:write": "prettier --write ."
   },
   "dependencies": {
-    "prettier-plugin-packagejson": "^2.5.6",
-    "prettier-plugin-tailwindcss": "^0.6.9"
+    "prettier-plugin-packagejson": "^2.5.8",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "devDependencies": {
     "@szum-tech/eslint-config": "^2.1.5",
-    "@szum-tech/semantic-release-config": "^2.2.1",
+    "@szum-tech/semantic-release-config": "^2.2.2",
     "eslint": "^9.19.0",
     "prettier": "^3.4.2",
     "semantic-release": "^24.2.1",
