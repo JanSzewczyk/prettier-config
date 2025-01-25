@@ -1,22 +1,29 @@
-# @szum-tech/prettier-config
-
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/JanSzewczyk/prettier-config)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/JanSzewczyk/prettier-config)](https://github.com/JanSzewczyk/prettier-config/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/JanSzewczyk/prettier-config)](https://github.com/JanSzewczyk/prettier-config/issues)
-![GitHub Repo stars](https://img.shields.io/github/stars/JanSzewczyk/prettier-config?style=social)
-
-[![released](https://github.com/JanSzewczyk/prettier-config/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/JanSzewczyk/prettier-config/actions/workflows/publish.yml)
-[![CodeQL](https://github.com/JanSzewczyk/prettier-config/actions/workflows/codeql.yml/badge.svg)](https://github.com/JanSzewczyk/prettier-config/actions/workflows/codeql.yml)
-
-[![npm](https://img.shields.io/npm/v/@szum-tech/prettier-config)](https://www.npmjs.com/package/@szum-tech/prettier-config)
-![npm](https://img.shields.io/npm/dm/@szum-tech/prettier-config)
-
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/JanSzewczyk/prettier-config/blob/main/LICENSE)
+<h1 align="center">@szum-tech/prettier-config</h1>
+<p align="center"><a href="https://prettier.io">Prettier</a> shareable configuration. </p>
+<br>
+<div align="center" style="display: flex; flex-direction: column; gap: 1em;">
+    <div style="display: flex; gap: .5em; justify-content: center">
+        <a href="https://github.com/JanSzewczyk/prettier-config"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/JanSzewczyk/prettier-config"></a>
+        <a href="https://github.com/JanSzewczyk/prettier-config/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/JanSzewczyk/prettier-config"></a>
+        <a href="https://github.com/JanSzewczyk/prettier-config/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/JanSzewczyk/prettier-config"></a>
+        <a href="https://github.com/JanSzewczyk/prettier-config"><img alt="Github stars" src="https://img.shields.io/github/stars/JanSzewczyk/prettier-config?style=social"></a>
+    </div>
+    <div style="display: flex; gap: .5em; justify-content: center">
+        <a href="https://github.com/JanSzewczyk/prettier-config/actions/workflows/publish.yml"><img alt="Publish action" src="https://github.com/JanSzewczyk/prettier-config/actions/workflows/publish.yml/badge.svg?branch=main"></a>
+        <a href="https://github.com/JanSzewczyk/prettier-config/actions/workflows/codeql.yml"><img alt="CodeQL action" src="https://github.com/JanSzewczyk/prettier-config/actions/workflows/codeql.yml/badge.svg"></a>
+    </div>
+    <div style="display: flex; gap: .5em; justify-content: center">
+        <a href="https://www.npmjs.com/package/@szum-tech/prettier-config"><img alt="NPM version" src="https://img.shields.io/npm/v/@szum-tech/prettier-config"></a>
+        <a href="https://www.npmjs.com/package/@szum-tech/prettier-config"><img alt="Downloads" src="https://img.shields.io/npm/dm/@szum-tech/prettier-config"></a>
+    </div>
+</div>
+<br>
+<p align="center">
+Creating a Prettier configuration should be easier.<br>
+<a href="https://github.com/JanSzewczyk/prettier-config">@szum-tech/prettier-config</a> provides a ready-to-use <a href="https://prettier.io">Prettier</a> configuration that will fit your project.
+</p>
 
 ---
-
-[Prettier](https://prettier.io/) shareable configuration.
 
 ## 📚 Features
 
@@ -31,22 +38,21 @@
 ## 📖 Table of Contents
 
 <!-- TOC -->
-* [@szum-tech/prettier-config](#szum-techprettier-config)
   * [📚 Features](#-features)
   * [📖 Table of Contents](#-table-of-contents)
   * [🎯 Getting Started](#-getting-started)
-    * [Installation](#installation)
+    * [⚙️ Installation](#-installation)
     * [Configuration](#configuration)
-  * [Scripts](#scripts)
-  * [Developer Info](#developer-info)
+  * [💻 Scripts](#-scripts)
+  * [🛠️ Developer Info](#-developer-info)
     * [Dependencies](#dependencies)
-  * [Changelog](#changelog)
+  * [📓 Changelog](#-changelog)
   * [📜 License](#-license)
 <!-- TOC -->
 
 ## 🎯 Getting Started
 
-### Installation
+### ⚙️ Installation
 
 [@szum-tech/prettier-config](https://www.npmjs.com/package/@szum-tech/prettier-config) is available as
 [npm package](https://www.npmjs.com/package/@szum-tech/prettier-config).
@@ -135,10 +141,9 @@ module.exports = {
 "@szum-tech/prettier-config"
 ```
 
-> [!TIP]
-> You can ignore files by adding it to `.prettierignore`.
+> [!TIP] You can ignore files by adding it to `.prettierignore`.
 
-## Scripts
+## 💻 Scripts
 
 Suggested scripts you can add to `package.json` file:
 
@@ -151,14 +156,14 @@ Suggested scripts you can add to `package.json` file:
 }
 ```
 
-## Developer Info
+## 🛠️ Developer Info
 
 ### Dependencies
 
 ![NPM (prod) Dependency Version](https://img.shields.io/npm/dependency-version/%40szum-tech%2Fprettier-config/prettier-plugin-packagejson)
 ![NPM (prod) Dependency Version](https://img.shields.io/npm/dependency-version/%40szum-tech%2Fprettier-config/prettier-plugin-tailwindcss)
 
-## Changelog
+## 📓 Changelog
 
 The [changelog](https://github.com/JanSzewczyk/prettier-config/blob/main/CHANGELOG.md) is regularly updated to reflect
 what's changed in each new release.
