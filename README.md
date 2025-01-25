@@ -44,6 +44,7 @@ Creating a Prettier configuration should be easier.<br>
     * [⚙️ Installation](#-installation)
     * [Configuration](#configuration)
   * [💻 Scripts](#-scripts)
+  * [🚀 Minimal GitHub Prettier check workflow](#-minimal-github-prettier-check-workflow)
   * [🛠️ Developer Info](#-developer-info)
     * [Dependencies](#dependencies)
   * [📓 Changelog](#-changelog)
@@ -141,7 +142,8 @@ module.exports = {
 "@szum-tech/prettier-config"
 ```
 
-> [!TIP] You can ignore files by adding it to `.prettierignore`.
+> [!TIP] 
+> You can ignore files by adding it to `.prettierignore`.
 
 ## 💻 Scripts
 
@@ -154,6 +156,38 @@ Suggested scripts you can add to `package.json` file:
     "prettier:write": "prettier --write ."
   }
 }
+```
+
+## 🚀 Minimal GitHub Prettier check workflow
+
+Here are the minimal steps required to run an Prettier check. Creating or adding any content to a PR will trigger this
+event. This action validate the code and return its results.
+
+```yaml
+name: PR Checks ✅
+
+on:
+  pull_request:
+
+env:
+  NODE_VERSION: 22.x
+  
+jobs:
+  prettier:
+    name: Prettier 🧹
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 📚
+        uses: actions/checkout@v4
+      - name: Set up Node 🟢
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install packages ⚙️
+        run: npm ci
+      - name: Prettier Check 🧹
+        run: npm run prettier:check
 ```
 
 ## 🛠️ Developer Info
