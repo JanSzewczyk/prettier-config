@@ -1,13 +1,87 @@
-const has = (pkg) => {
-  try {
-    import.meta.resolve(pkg, import.meta.url);
-    return true;
-  } catch {
-    return false;
-  }
-};
+import { existsSync, readFileSync } from "node:fs";
+import { join, resolve } from "node:path";
 
-const hasTailwindcss = has("tailwindcss");
+const logger = console;
+
+function isPackageInstalled(packageName) {
+  const currentDir = process.cwd(); // Get the current working directory
+  const packageJsonPath = findPackageJson(currentDir);
+
+  // Read the package.json file
+  try {
+    const packageJson = readFileSync(packageJsonPath, "utf-8");
+    const parsedPackageJson = JSON.parse(packageJson);
+
+    // Check if the package is listed in dependencies or devDependencies
+    const dependencies = parsedPackageJson.dependencies || {};
+    const devDependencies = parsedPackageJson.devDependencies || {};
+
+    return dependencies.hasOwnProperty(packageName) || devDependencies.hasOwnProperty(packageName);
+  } catch (error) {
+    logger.error("Error reading package.json file:", error);
+    process.exit(1);
+  }
+}
+
+const PACKAGE_JSON = "package.json";
+function findPackageJson(startDir) {
+  let currentDir = startDir;
+
+  while (true) {
+    const packageJsonPath = join(currentDir, PACKAGE_JSON);
+
+    if (existsSync(packageJsonPath)) {
+      return packageJsonPath;
+    }
+
+    const parentDir = resolve(currentDir, "..");
+    if (parentDir === currentDir) {
+      // Reached the root of the filesystem
+      break;
+    }
+    currentDir = parentDir;
+  }
+
+  return null;
+}
+
+const hasTailwindcss = isPackageInstalled("tailwindcss");
+
+function showFeaturesTable() {
+  const tableData = [
+    { Name: "Package JSON", Status: "✔️" },
+    { Name: "Tailwind", Status: hasTailwindcss ? "✔️" : "❌" }
+  ].sort((a, b) => {
+    // Check if Status contains the checkmark
+    const aHasCheck = a.Status.includes("✔️");
+    const bHasCheck = b.Status.includes("✔️");
+
+    // Sort tasks with checkmarks first
+    if (aHasCheck && !bHasCheck) {
+      return -1;
+    } else if (!aHasCheck && bHasCheck) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+
+  logger.log("Hello There!");
+  logger.log("Here are the features detected in your project:");
+  logger.table(tableData);
+  logger.log();
+  logger.log(`Dear Developer`);
+  logger.log();
+  logger.log("Thanks a lot for using '@szum-tech/prettier-config'");
+  logger.log("If you like it, leave a star ⭐  👉 https://github.com/JanSzewczyk/prettier-config");
+  logger.log("And recommend to others");
+  logger.log();
+  logger.log(`May the SZUMRAK be with You 🚀🚀🚀`);
+  logger.log();
+  logger.log();
+}
+
+showFeaturesTable();
 
 /** @type {import('prettier').Config} */
 const baseConfig = {
