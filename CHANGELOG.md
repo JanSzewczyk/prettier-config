@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.5...v1.5.0) (2025-01-25)
+
+### Features
+
+* **config:** improve features detection ([72e3d21](https://github.com/JanSzewczyk/prettier-config/commit/72e3d21df1a303a27888d480f48827650dc8bd35))
+
+### Documentation
+
+* **CHANGELOG:** clear Changelog file ([baced08](https://github.com/JanSzewczyk/prettier-config/commit/baced08d9f9f3a507608fc9c05f58d0116f33cb4))
+* **LICENCE:** update copyright copy ([9257faa](https://github.com/JanSzewczyk/prettier-config/commit/9257faa5d04dad94e7080d09c8410d4f6e1abc91))
+* **README:** update `README` file documentation ([7c2c4a4](https://github.com/JanSzewczyk/prettier-config/commit/7c2c4a43275b23192b00f67d21087d6c2d6285be))
+
+### Build System
+
+* **deps:** bump deps ([cdb0b42](https://github.com/JanSzewczyk/prettier-config/commit/cdb0b425fd0d312248be22c79f30678ba9a34cfd))
+
+### Continuous Integration
+
+* **gh-actions:** update Github actions: ([12e63d9](https://github.com/JanSzewczyk/prettier-config/commit/12e63d91a81369c353cc8174983704e665aab4c9))
+
 ## [1.4.5](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.4...v1.4.5) (2024-12-25)
 
 ### Bug Fixes
