@@ -114,13 +114,6 @@ All notable changes to this project will be documented in this file. See
 
 * **config:** add `@trivago/prettier-plugin-sort-imports` library to shared config ([4d08c3d](https://github.com/JanSzewczyk/prettier-config/commit/4d08c3de846a4b0189a59e7ef5f2e50fdd3d6f54))
 
-<!-- markdownlint-disable --><!-- textlint-disable -->
-
-# 📓 Changelog
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
 ## [1.1.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.1.0...v1.1.1) (2023-03-07)
 
 ### Bug Fixes
@@ -132,13 +125,6 @@ All notable changes to this project will be documented in this file. See
 ### Features
 
 - add `prettier-plugin-packagejson` plugin to configuration ([487996e](https://github.com/JanSzewczyk/prettier-config/commit/487996e89def7d718154e95b476f9c6717384e8e))
-
-<!-- markdownlint-disable --><!-- textlint-disable -->
-
-# 📓 Changelog
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 1.0.0 (2023-03-06)
 
