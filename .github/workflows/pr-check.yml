@@ -7,6 +7,22 @@ env:
   NODE_VERSION: 22.x
 
 jobs:
+  type-check:
+    name: TypeScript
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 📚
+        uses: actions/checkout@v4
+      - name: Set up Node 🟢
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install packages ⚙️
+        run: npm ci
+      - name: TypeScript Check
+        run: npm run type-check
+
   prettier:
     name: Prettier 🧹
     runs-on: ubuntu-latest

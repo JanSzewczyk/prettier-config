@@ -31,7 +31,8 @@
     "lint:ci": "eslint . -o eslint-results.sarif -f @microsoft/eslint-formatter-sarif",
     "lint:fix": "eslint . --fix",
     "prettier:check": "prettier --check .",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.8",
