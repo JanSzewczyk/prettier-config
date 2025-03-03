@@ -108,7 +108,7 @@ const baseConfig = {
 const plugins = [
   "prettier-plugin-packagejson",
   hasTailwindcss ? "prettier-plugin-tailwindcss" : null,
-].filter(Boolean) as Array<string>
+].filter(Boolean) as Array<string>;
 
 const tailwindcssConfig = {
   tailwindAttributes: ["class", "className", "ngClass", ".*[cC]lassName"],
@@ -119,6 +119,4 @@ export default {
   ...baseConfig,
   plugins,
   ...(hasTailwindcss ? tailwindcssConfig : {}),
-} satisfies Config
-
-
+} satisfies Config;
