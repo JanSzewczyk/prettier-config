@@ -47,6 +47,7 @@ Creating a Prettier configuration should be easier.<br>
   * [🚀 Minimal GitHub Prettier check workflow](#-minimal-github-prettier-check-workflow)
   * [🛠️ Developer Info](#-developer-info)
     * [Dependencies](#dependencies)
+    * [Peer Dependencies](#peer-dependencies)
   * [📓 Changelog](#-changelog)
   * [📜 License](#-license)
 <!-- TOC -->
@@ -80,11 +81,29 @@ Full documentation on how to create a Prettier configuration can be found in
 **Configuration could be set via either:**
 
 - A `.prettierrc` file, written in YAML or JSON, with optional extensions:
-  `.yaml`/`.yml`/`.json`/`.json5`/`.js`/`.cjs`/`.mjs`
-- A `prettier.config.(js|cjs|.mjs)` file that exports an object
+  `.yaml`/`.yml`/`.json`/`.json5`/`.js`/`.cjs`/`.mjs`/`.ts`/`.mts`/`.cts`
+- A `prettier.config.(js|cjs|mjs|ts|cts|mts)` file that exports an object
 - A `prettier` key in the project's `package.json` file
 
 **The following examples show how to integrate predefined configuration in project:**
+
+- Via `prettier.config.mts` file:
+
+```ts
+export { default } from "@szum-tech/prettier-config";
+```
+
+Configurations also could be used to extends:
+
+```ts
+import { type Config } from "prettier";
+import szumTechPrettierConfig from "@szum-tech/prettier-config";
+
+export default {
+  ...szumTechPrettierConfig,
+  semi: false
+} satisfies Config;
+```
 
 - Via `prettier.config.mjs` file:
 
@@ -95,17 +114,15 @@ export { default } from "@szum-tech/prettier-config";
 Configurations also could be used to extends:
 
 ```js
-export szumTechPrettierConfig from "@szum-tech/prettier-config";
+import szumTechPrettierConfig from "@szum-tech/prettier-config";
 
 /**
  * @type {import("prettier").Config}
  */
-const config = {
+export default {
   ...szumTechPrettierConfig,
   semi: false
 };
-
-export default config;
 ```
 
 - Via `prettier.config.cjs` file:
@@ -196,6 +213,10 @@ jobs:
 
 ![NPM (prod) Dependency Version](https://img.shields.io/npm/dependency-version/%40szum-tech%2Fprettier-config/prettier-plugin-packagejson)
 ![NPM (prod) Dependency Version](https://img.shields.io/npm/dependency-version/%40szum-tech%2Fprettier-config/prettier-plugin-tailwindcss)
+
+### Peer Dependencies
+
+![NPM dev or peer Dependency Version](https://img.shields.io/npm/dependency-version/%40szum-tech%2Fprettier-config/peer/prettier)
 
 ## 📓 Changelog
 
