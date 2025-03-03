@@ -17,10 +17,7 @@ function isPackageInstalled(packageName: string): boolean {
     const dependencies = parsedPackageJson.dependencies || {};
     const devDependencies = parsedPackageJson.devDependencies || {};
 
-    return (
-      dependencies.hasOwnProperty(packageName) ||
-      devDependencies.hasOwnProperty(packageName)
-    );
+    return dependencies.hasOwnProperty(packageName) || devDependencies.hasOwnProperty(packageName);
   } catch (error) {
     logger.error("Error reading package.json file:", error);
     process.exit(1);
@@ -54,7 +51,7 @@ const hasTailwindcss = isPackageInstalled("tailwindcss");
 function showFeaturesTable() {
   const tableData = [
     { Name: "Package JSON", Status: "✔️" },
-    { Name: "Tailwind", Status: hasTailwindcss ? "✔️" : "❌" },
+    { Name: "Tailwind", Status: hasTailwindcss ? "✔️" : "❌" }
   ].sort((a, b) => {
     // Check if Status contains the checkmark
     const aHasCheck = a.Status.includes("✔️");
@@ -77,9 +74,7 @@ function showFeaturesTable() {
   logger.log(`Dear Developer`);
   logger.log();
   logger.log("Thanks a lot for using '@szum-tech/prettier-config'");
-  logger.log(
-    "If you like it, leave a star ⭐  👉 https://github.com/JanSzewczyk/prettier-config",
-  );
+  logger.log("If you like it, leave a star ⭐  👉 https://github.com/JanSzewczyk/prettier-config");
   logger.log("And recommend to others");
   logger.log();
   logger.log(`May the SZUMRAK be with You 🚀🚀🚀`);
@@ -102,21 +97,20 @@ const baseConfig = {
   quoteProps: "as-needed",
   requirePragma: false,
   htmlWhitespaceSensitivity: "css",
-  embeddedLanguageFormatting: "auto",
+  embeddedLanguageFormatting: "auto"
 } satisfies Config;
 
-const plugins = [
-  "prettier-plugin-packagejson",
-  hasTailwindcss ? "prettier-plugin-tailwindcss" : null,
-].filter(Boolean) as Array<string>;
+const plugins = ["prettier-plugin-packagejson", hasTailwindcss ? "prettier-plugin-tailwindcss" : null].filter(
+  Boolean
+) as Array<string>;
 
 const tailwindcssConfig = {
   tailwindAttributes: ["class", "className", "ngClass", ".*[cC]lassName"],
-  tailwindFunctions: ["classNames", "clsx", "cn"],
+  tailwindFunctions: ["classNames", "clsx", "cn"]
 } satisfies Config;
 
 export default {
   ...baseConfig,
   plugins,
-  ...(hasTailwindcss ? tailwindcssConfig : {}),
+  ...(hasTailwindcss ? tailwindcssConfig : {})
 } satisfies Config;
