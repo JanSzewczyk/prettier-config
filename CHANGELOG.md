@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.5.0...v1.6.0) (2025-03-03)
+
+### Features
+
+* **typescript:** add typescript support for prettier configuration ([bb89407](https://github.com/JanSzewczyk/prettier-config/commit/bb8940704cb8bd226a09402f29e808b4f73909bd))
+
 ## [1.5.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.4.5...v1.5.0) (2025-01-25)
 
 ### Features
