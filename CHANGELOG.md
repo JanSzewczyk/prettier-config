@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.0...v1.6.1) (2025-03-03)
+
+### Bug Fixes
+
+* **typescript:** add missing `types` configuration to `package.json` file ([5dac209](https://github.com/JanSzewczyk/prettier-config/commit/5dac2095afadb161b86c7127e9bcbd3ee2908cc6))
+
+### Documentation
+
+* **README:** update documentation with ts usage ([ab11500](https://github.com/JanSzewczyk/prettier-config/commit/ab11500d2c86bcec46e18d56c85948e5a2d55deb))
+
+### Build System
+
+* **deps:** bump deps ([b1dff30](https://github.com/JanSzewczyk/prettier-config/commit/b1dff30a9ce251284190d24b87286188ee3c1169))
+
+### Continuous Integration
+
+* **pr-check:** add `TypeScript` job to `PR Checks ✅` action ([b921a85](https://github.com/JanSzewczyk/prettier-config/commit/b921a858224cb9813f058bf7cd9548e0e2a7a656))
+
 ## [1.6.0](https://github.com/JanSzewczyk/prettier-config/compare/v1.5.0...v1.6.0) (2025-03-03)
 
 ### Features
