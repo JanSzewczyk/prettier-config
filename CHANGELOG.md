@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.2](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.1...v1.6.2) (2025-07-03)
+
+### Bug Fixes
+
+* **deps:** update project deps ([f8a3a8a](https://github.com/JanSzewczyk/prettier-config/commit/f8a3a8a7f7f3b0128d16d26e648bf18e3d7a8116))
+
+### Build System
+
+* **deps:** bump the prettier-config-dependencies group across 1 directory with 7 updates ([f800319](https://github.com/JanSzewczyk/prettier-config/commit/f8003198408536de617cf341cefc40e2b6d7b90b))
+
 ## [1.6.1](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.0...v1.6.1) (2025-03-03)
 
 ### Bug Fixes
