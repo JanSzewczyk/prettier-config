@@ -35,24 +35,24 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "prettier-plugin-packagejson": "^2.5.10",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-packagejson": "^2.5.18",
+    "prettier-plugin-tailwindcss": "^0.6.13"
   },
   "devDependencies": {
-    "@szum-tech/eslint-config": "^2.1.5",
+    "@szum-tech/eslint-config": "^2.1.6",
     "@szum-tech/semantic-release-config": "^2.3.0",
-    "@types/node": "^22.13.9",
-    "eslint": "^9.21.0",
-    "prettier": "^3.5.3",
-    "semantic-release": "^24.2.3",
-    "tsup": "^8.4.0",
-    "typescript": "^5.8.2"
+    "@types/node": "^22.16.0",
+    "eslint": "^9.30.1",
+    "prettier": "^3.6.2",
+    "semantic-release": "^24.2.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "prettier": ">=3.5.3"
+    "prettier": ">=3.6"
   },
   "engines": {
-    "node": ">=22.6.0"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"
