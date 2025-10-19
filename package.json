@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.18",
-    "prettier-plugin-tailwindcss": "^0.6.13"
+    "prettier-plugin-tailwindcss": "^0.7.1"
   },
   "devDependencies": {
     "@szum-tech/eslint-config": "^2.1.10",
@@ -44,7 +44,7 @@
     "@types/node": "^24.5.1",
     "eslint": "^9.34.0",
     "prettier": "^3.6.2",
-    "semantic-release": "^24.2.6",
+    "semantic-release": "^25.0.0",
     "tsup": "^8.5.0",
     "typescript": "^5.9.2"
   },
