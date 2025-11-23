@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code 📚
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Node 🟢
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
@@ -31,9 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code 📚
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Node 🟢
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
@@ -47,9 +47,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code 📚
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Node 🟢
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
@@ -61,7 +61,7 @@ jobs:
         run: npm run lint:ci
         continue-on-error: true
       - name: Upload ESlint results to GitHub
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
@@ -71,9 +71,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code 📚
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Node 🟢
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
@@ -90,7 +90,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout code 📚
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Dependency Review 👀
         uses: actions/dependency-review-action@v4
         with:
