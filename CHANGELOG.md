@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.4](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.3...v1.6.4) (2025-12-13)
+
+### Bug Fixes
+
+* **deps:** trigger package release ([66312c1](https://github.com/JanSzewczyk/prettier-config/commit/66312c1e82720abe5ef3e397a82af1de795e46fd))
+
 ## [1.6.3](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.2...v1.6.3) (2025-12-13)
 
 ### Bug Fixes
