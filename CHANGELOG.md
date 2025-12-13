@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.3](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.2...v1.6.3) (2025-12-13)
+
+### Bug Fixes
+
+* **deps:** update prettier-plugin-tailwindcss and other dependencies; adjust node engine requirement ([b5eeb83](https://github.com/JanSzewczyk/prettier-config/commit/b5eeb837559c174aedfd24648a127a09641838d6))
+
+### Miscellaneous Chores
+
+* add `gitattributes` file ([b38f898](https://github.com/JanSzewczyk/prettier-config/commit/b38f898883fd5817f1e2011884b6c8ac496e5e11))
+
+### Build System
+
+* **deps-dev:** bump @types/node in the project-dependencies group ([52ec993](https://github.com/JanSzewczyk/prettier-config/commit/52ec993d34f3bcf9627e3bdbd46a00c7a1cff999))
+* **deps-dev:** bump the prettier-config-dependencies group across 1 directory with 3 updates ([1662f31](https://github.com/JanSzewczyk/prettier-config/commit/1662f31996289be51318c637e3f81b39723c552b))
+* **deps-dev:** bump the prettier-config-dependencies group across 1 directory with 6 updates ([75cfad5](https://github.com/JanSzewczyk/prettier-config/commit/75cfad517e155cfe5f646645db3d745ffe9478c0))
+* **deps:** bump actions/checkout in the github-dependencies group ([fc890e3](https://github.com/JanSzewczyk/prettier-config/commit/fc890e3862156338a0bb35c20dd81a1036ddfe19))
+* **deps:** bump actions/setup-node in the github-dependencies group ([ef3d436](https://github.com/JanSzewczyk/prettier-config/commit/ef3d4362c18a63592ba5ba626c0f139bd3462f08))
+* **deps:** bump deps ([7781677](https://github.com/JanSzewczyk/prettier-config/commit/778167782e5e4d184051d36fd7b62a8452e7bd3a))
+* **deps:** bump the github-dependencies group across 1 directory with 3 updates ([5964dec](https://github.com/JanSzewczyk/prettier-config/commit/5964decf7175c5b936928f32e042c254c86a28f8))
+* **deps:** bump the prettier-config-dependencies group across 1 directory with 8 updates ([87be100](https://github.com/JanSzewczyk/prettier-config/commit/87be10007ccafb189b9f9d2dd7ba8c6723a6503a))
+* **deps:** bump the prettier-config-dependencies group across 1 directory with 9 updates ([c1e1299](https://github.com/JanSzewczyk/prettier-config/commit/c1e12995324dc195e0a35fd1cefdfa81413b86d6))
+
 ## [1.6.2](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.1...v1.6.2) (2025-07-03)
 
 ### Bug Fixes
