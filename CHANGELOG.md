@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.5](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.4...v1.6.5) (2025-12-13)
+
+### Bug Fixes
+
+* update Node.js version to 24.x in workflow files ([7e04792](https://github.com/JanSzewczyk/prettier-config/commit/7e047929f9fe18ccc336dd7564e12648ba5a5c69))
+
 ## [1.6.4](https://github.com/JanSzewczyk/prettier-config/compare/v1.6.3...v1.6.4) (2025-12-13)
 
 ### Bug Fixes
