@@ -41,7 +41,7 @@
   "devDependencies": {
     "@szum-tech/eslint-config": "^2.1.10",
     "@szum-tech/semantic-release-config": "^2.3.3",
-    "@types/node": "^24.10.3",
+    "@types/node": "^25.0.1",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4",
     "semantic-release": "^25.0.2",
